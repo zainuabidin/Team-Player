@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "name": "team-player",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zainuabidin/Team-Player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zainuabidin/Team-Player/issues"
+  },
+  "homepage": "https://github.com/zainuabidin/Team-Player#readme"
+}
