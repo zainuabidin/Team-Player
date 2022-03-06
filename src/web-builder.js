@@ -19,11 +19,28 @@ function generateHtml(data){
         `
     }
 //make engineers card
-//make intern card
+    
+    const engineerCard = engineer =>{
+        return `
+        <div class="card" style="width: 18rem;">
+        <div class="card-header">
+       ${engineer.name} <br/>
+       <i class="fas fa-glasses"></i>${engineer.getRole} </div>
+       <ul class="list-group list-group-flush">
+        <li class="list-group-item">${engineer.id} </li>
+        <li class="list-group-item">Email: <span id="email"><a href="">${engineer.email} </a></span></li>
+        <li class="list-group-item">${engineer.github} <a target="_blank" href="">zainuabidin</a></li>
+        </ul>
+    </div>
+     `
+     
+    }
+// make intern card
     const teamArr = []
 
     teamArr.push(data.filter(emp =>emp.getRole()==="Manager").map(manager => managerCard(manager)))
     //need to do same for intern and engineer and end with .join after blue apprectis
+    teamArr.push(data.filter(emp =>emp.getRole()==="Engineer").map(engineer => engineerCard(engineer)).join)
 
     //return the array that is joining all of the cards to tbe written
     return teamArr.join("")
