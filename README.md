@@ -1,5 +1,7 @@
 # Team-Player
 
+
+
 Description
 This Homework required was building command-line application which prompt a team including manager,engineer and internee using inquire node module and using fs module generates an HTML webpage that display the required information of the employee based on there role. 
 Testing
@@ -23,7 +25,11 @@ This application is rendered under MIT
 
 ![127 0 0 1_5500_Team-Player_dist_index html](https://user-images.githubusercontent.com/95305672/156947403-eaa8beed-368a-4246-bf3a-bbba6194b292.png)
 
+# Github link
+<a href='https://github.com/zainuabidin/Team-Player/edit/main/README.md'>Link to Github Repo</a>
 
+# Diployed link
+<a href='https://github.com/zainuabidin/Team-Player/edit/main/README.md'>Link to Github Repo</a>
 
 # Video link
 
