@@ -11,7 +11,7 @@ function generateHtml(data){
           <div class="card" style="width: 18rem;">
             <div class="card-header">
             ${manager.name}<br/>
-           <i class="fas fa-mug-hot"></i>${manager.getRole}<</div>
+           <i class="fas fa-mug-hot"></i>${manager.getRole()}<</div>
            <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${manager.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="xan.abdn@gmail.com">${manager.email}</a></span></li>
@@ -27,7 +27,7 @@ function generateHtml(data){
        <div class="card" style="width: 18rem;">
             <div class="card-header">
             ${engineer.name} <br/>
-           <i class="fas fa-glasses"></i>${engineer.getRole} </div>
+           <i class="fas fa-glasses"></i>${engineer.getRole()} </div>
            <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${engineer.id}</li>
             <li class="list-group-item">Email: <span id="email"><a href="mailto:xan.abdn@gmail.com">${engineer.email}</a></span></li>
