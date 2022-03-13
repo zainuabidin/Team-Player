@@ -28,8 +28,6 @@ This application is rendered under MIT
 # Github link
 <a href='https://github.com/zainuabidin/Team-Player>Link to Github Repo</a>
 
-# Diployed link
-<a href='https://zainuabidin.github.io/Team-Player/'>Diployed link</a>
 
 # Video link
 <a href='https://drive.google.com/file/d/1RK8FVoR-rIKPAujbvEbPxZsvUu1wUL_E/view?usp=sharing'>Video Usage</a>
